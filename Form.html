@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <link href="Form.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <h1>Registration form</h1>
+    <form onsubmit="return Validation()" action="https://www.google.com/">
+           <label>Name</label>
+           <input type="text" id="fname" placeholder="Enter name" >
+            <span id="msg" style="color: red;">*</span><br><br>
+
+        <label>Phone no.</label>
+        <input type="text" id="ph" placeholder="Enter Phone number">
+        <span id="ms" style="color: red;">*</span><br><br>
+
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter email ID">
+        <span id="em" style="color: red;">*</span><br><br>
+
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <span id="pa" style="color: red;">*</span><br><br>
+
+
+        <label>Date of Birth</label>
+        <input type="date" id="da" placeholder="Enter Date of birth">
+        <span id="DB" style="color: red;">*</span><br><br>
+
+
+        <label>Course</label>
+        <select>
+            <option>Java</option>
+            <option>Sql</option>
+            <option>Python</option>
+        </select><br><br>
+
+        <label>Address</label>
+             <textarea rows="6" cols="40" id="ta" placeholder="Enter address"></textarea>
+
+             <span id="tx" style="color: red;">*</span><br><br>
+
+        <label>Gender</label> 
+        <input type="radio"><label>Male</label>
+        <input type="radio"><label>Female</label>
+        <input type="radio"><label>Others</label><br><br>
+
+        <input type="checkbox"><label>I am above 18</label><br>
+
+        <input type="submit" id="submit">
+    </form>
+         <script src="formValidation.js"></script>
+</body>
+</html>
