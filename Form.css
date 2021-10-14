@@ -1,0 +1,36 @@
+h1
+{
+    text-align: center;
+}
+
+body{
+    background-image: url("images.jpg");
+}
+       
+form
+
+{
+    height: 80%;
+    width: 60%;  
+   text-align: left;
+   font-size: 17px;
+   font-family: cursive;
+   color: red;
+   background-color:rgb(0,0,0,0.7);
+   padding: 50px;
+   margin: 0px auto
+   
+   
+}
+
+input{
+    font-size:large;
+    color:black;
+    font-family: cursive;
+}
+#submit
+{
+    margin-left: 30%;
+    width: 40%;
+    
+}
